@@ -1,29 +1,25 @@
-from librosa import display
 import librosa
 import numpy as np
 from numpy import newaxis
-from sklearn.preprocessing import StandardScaler
 from keras.models import model_from_json
-import tensorflow as tf
 import pandas as pd
 import matplotlib.pyplot as plt
-from tensorflow.keras.utils import to_categorical
 import pickle
 
 # load json and create model
-json_file = open('saved_model_object\LSTM_model.json', 'r')
+json_file = open('LSTM_model.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
 loaded_model = model_from_json(loaded_model_json)
 # load weights into new model
-loaded_model.load_weights("saved_model_object\LSTM_model_weights.h5")
+loaded_model.load_weights("LSTM_model_weights.h5")
 
 # load train mean
-with open('saved_model_object/train_mean', 'rb') as fp:
+with open('train_mean', 'rb') as fp:
     train_mean = pickle.load(fp)
 
 # load train variance
-with open('saved_model_object/train_var', 'rb') as fp1:
+with open('train_var', 'rb') as fp1:
     train_variance = pickle.load(fp1)
 
 
@@ -61,9 +57,3 @@ def predict(z):
                     'Women in neutral', 'Women in sad', 'Women in surprised']
     output = class_names[y_pred]
     return output
-
-
-
-
-
-    
