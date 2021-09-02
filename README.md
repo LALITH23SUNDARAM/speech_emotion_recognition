@@ -42,14 +42,7 @@ to tagging the emotion over audio from the user’s.
     - Notebook to scripts
     - Streamlit share using Git
 
-
- 
-
-
-  
-
-
-  ## Run Locally
+## Run Locally
 
 Clone the project
 
@@ -74,6 +67,11 @@ Start the server
 ```bash
   streamlit run app.py
 ```  
+
+## Reference
+    - Medium
+    - Stackoverflow
+    - Towardsdatasceince
 ## License
 
 [PUBLIC DOMAIN]()
