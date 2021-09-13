@@ -6,8 +6,8 @@ Emotion recognition is one of Natural Language processing technique its primary 
 to take-up Man-Machine Interaction to another Level. Many industries try to incorporate this 
 technique in their system for better user engagement. In 2018, leading audio streaming 
 platform Spotify patented their recommendation engine to suggests songs based on user’s 
-emotional state. In this project by considering above motive as upfrond, I developed an web application 
-to tagging the emotion over audio from the user’s.
+emotional state. In this project by considering above motive as upfront, I developed an web application 
+to tagging the emotion over audio finput rom the user’s.
 
 
 
