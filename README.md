@@ -7,7 +7,7 @@ to take-up Man-Machine Interaction to another Level. Many industries try to inco
 technique in their system for better user engagement. In 2018, leading audio streaming 
 platform Spotify patented their recommendation engine to suggests songs based on user’s 
 emotional state. In this project by considering above motive as upfront, I developed an web application 
-to tagging the emotion over audio finput rom the user’s.
+to tagging the emotion over audio input from the user’s.
 
 
 
